@@ -1,6 +1,35 @@
-@import 'utils/_tailwind.css';
-@import 'utils/_accessibility.css';
+@import "utils/_tailwind.css";
+@import "utils/_accessibility.css";
+
+@font-face {
+	font-family: "CMU Serif";
+	src: url("CMUSerif-Roman.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: MoonTime;
+	src: url("MoonTime-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	@apply font-serif;
+}
 
 a {
-	@apply text-ws-blue-500 underline;
+	@apply underline;
+}
+
+.pretix-widget {
+	margin: 0;
+	border: 0;
+}
+
+.logo {
+	text-shadow: 4px 3px #a12f90;
 }
