@@ -5,45 +5,47 @@ description: Das Festival des Jahres! Präsentiert von der AsTA der Hochschule A
 ---
 
 <main id="main">
-  <header class="w-full h-screen pb-24 bg-[#fcf3ea] flex items-center justify-center relative flex-col">
-    <video
-      src="/static/festival-teaser-web-compressed.mp4"
-      autoplay="autoplay"
-      playsinline="playsinline"
-      loop="loop"
-      muted
-      class="absolute object-cover w-full h-full"></video>
-    <span class="relative block -mt-24 text-4xl text-white">Die VS AlbSig präsentiert...</span>
-    <h1 class="relative mt-24 text-center">
-      <span class="font-display text-[280px] text-pink-500 leading-[250px] logo">light up</span>
-      <span class="block font-serif text-4xl text-white uppercase">AlbSig</span>
-    </h1>
-  </header>
+  <div class="w-full h-screen pb-24">
+    <header class="w-full h-full bg-[#fcf3ea] flex items-center justify-center relative flex-col px-8 text-center">
+      <video
+        src="/static/festival-teaser-web-compressed.mp4"
+        autoplay="autoplay"
+        playsinline="playsinline"
+        loop="loop"
+        muted="muted"
+        class="absolute object-cover w-full h-full"></video>
+      <span class="relative block -mt-24 text-4xl text-white">Die VS AlbSig präsentiert...</span>
+      <h1 class="relative mt-24 text-center">
+        <span class="font-display text-9xl md:text-[280px] text-pink-500 leading-[250px] logo">light up</span>
+        <span class="block font-serif text-4xl text-white uppercase">AlbSig</span>
+      </h1>
+    </header>
+  </div>
   <section class="pb-48 pt-24 bg-[#fcf3ea]">
-    <div class="max-w-screen-lg mx-auto">
-      <h2 class="text-center text-gray-900 text-8xl">Das beste Festival des Jahres</h2>
+    <div class="max-w-screen-lg px-8 mx-auto">
+      <h2 class="text-4xl text-center text-gray-900 md:text-8xl">Das beste Festival des Jahres</h2>
     </div>
   </section>
   <section class="py-24 bg-teal-200">
-    <div class="max-w-screen-lg mx-auto text-center">
+    <div class="max-w-screen-lg px-8 mx-auto text-center">
       <span class="text-2xl">Noch ein wenig Geduld, der Vorverkauf startet bald</span>
       {#
-      <pretix-widget event="https://pretix.eu/hs-albsig-asta/spring-break/"></pretix-widget>
-      <noscript>
-        <div class="pretix-widget">
-          <div class="pretix-widget-info-message">
-            JavaScript is disabled in your browser. To access our ticket shop without JavaScript, please
-            <a target="_blank" rel="noopener" href="https://pretix.eu/hs-albsig-asta/spring-break/">click here</a>.
-          </div>
-        </div>
-      </noscript>
+            <pretix-widget event="https://pretix.eu/hs-albsig-asta/spring-break/"></pretix-widget>
+            <noscript>
+              <div class="pretix-widget">
+                <div class="pretix-widget-info-message">
+                  JavaScript is disabled in your browser. To access our ticket shop without JavaScript, please
+                  <a target="_blank" rel="noopener" href="https://pretix.eu/hs-albsig-asta/spring-break/">click here</a>.
+                </div>
+              </div>
+            </noscript>
 
-      #}
+            #}
     </div>
   </section>
-  <footer class="flex items-center px-16 py-4 bg-gradient-to-t from-teal-300 to-teal-200">
+  <footer class="items-center px-16 py-4 lg:flex bg-gradient-to-t from-teal-300 to-teal-200">
     <span class="block pr-8">&copy; 2022 VS AlbSig</span>
-    <ul class="flex space-x-4">
+    <ul class="lg:space-x-4 lg:flex">
       <li>
         <a href="/impressum/">Impressum</a>
       </li>
