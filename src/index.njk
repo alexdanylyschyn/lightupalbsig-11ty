@@ -4,7 +4,7 @@ title: Light Up Alb-Sig
 description: Das Festival des Jahres! Präsentiert von der AsTA der Hochschule Albstadt-Sigmaringen
 ---
 
-<main id="main" class="">
+<main id="main">
   <header class="w-full h-screen pb-24 bg-[#fcf3ea] flex items-center justify-center relative flex-col">
     <video
       src="/static/festival-teaser-web-compressed.mp4"
@@ -24,7 +24,9 @@ description: Das Festival des Jahres! Präsentiert von der AsTA der Hochschule A
     </div>
   </section>
   <section class="py-24 bg-teal-200">
-    <div class="max-w-screen-lg mx-auto">
+    <div class="max-w-screen-lg mx-auto text-center">
+      <span class="text-2xl">Noch ein wenig Geduld, der Vorverkauf startet bald</span>
+      {#
       <pretix-widget event="https://pretix.eu/hs-albsig-asta/spring-break/"></pretix-widget>
       <noscript>
         <div class="pretix-widget">
@@ -34,22 +36,24 @@ description: Das Festival des Jahres! Präsentiert von der AsTA der Hochschule A
           </div>
         </div>
       </noscript>
+
+      #}
     </div>
   </section>
   <footer class="flex items-center px-16 py-4 bg-gradient-to-t from-teal-300 to-teal-200">
     <span class="block pr-8">&copy; 2022 VS AlbSig</span>
     <ul class="flex space-x-4">
       <li>
-        <a href="/impressum">Impressum</a>
+        <a href="/impressum/">Impressum</a>
       </li>
       <li>
-        <a href="/datenschutz">Datenschutz</a>
+        <a href="/datenschutz/">Datenschutz</a>
       </li>
       <li>
-        <a href="/widerrufsrecht">Widerrufsrecht</a>
+        <a href="/widerrufsrecht/">Widerrufsrecht</a>
       </li>
       <li>
-        <a href="/agb">AGB</a>
+        <a href="/agb/">AGB</a>
       </li>
     </ul>
   </footer>

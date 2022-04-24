@@ -17,12 +17,31 @@
 	font-display: swap;
 }
 
+html,
 body {
+	@apply min-h-full;
+}
+
+body {
+	background-color: #fcf3ea;
+
 	@apply font-serif;
+}
+
+h2 {
+	@apply text-xl pb-2;
+}
+
+h3 {
+	@apply text-lg pb-2;
 }
 
 a {
 	@apply underline;
+}
+
+p {
+	@apply pb-4;
 }
 
 .pretix-widget {
