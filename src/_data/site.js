@@ -1,9 +1,9 @@
 module.exports = {
-	title: "Eleventy Web Starter",
+	title: "Light up AlbSig",
 	description:
-		"Minimal boilerplate for new projects built with Eleventy, Tailwind, PurgeCSS and PostCSS",
-	url: "https://eleventywebstarter.netlify.app",
-	author: "Chris Collins",
+		"Das Festival des Jahres! Präsentiert von der AsTA der Hochschule Albstadt-Sigmaringen",
+	url: "https://lightup-albsig.de",
+	author: "Alexander Danylyschyn",
 	meta_data: {
 		twitter: "@chrissy_dev",
 		opengraph_default: "/static/opengraph-default.jpg",
