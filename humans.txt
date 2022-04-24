@@ -1,7 +1,7 @@
 
 /* TEAM */
-	Name: Chris Collins
-	Site: https://eleventywebstarter.netlify.app
+	Name: Alexander Danylyschyn
+	Site: https://lightup-albsig.de
 Twitter: @chrissy_dev
 
 
