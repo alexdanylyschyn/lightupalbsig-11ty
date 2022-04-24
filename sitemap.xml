@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        
+        <url>
+            <loc>https://eleventywebstarter.netlify.app/agb/</loc>
+            <lastmod>2022-04-24</lastmod>
+        </url>
+        
+        <url>
+            <loc>https://eleventywebstarter.netlify.app/datenschutz/</loc>
+            <lastmod>2022-04-24</lastmod>
+        </url>
+        
+        <url>
+            <loc>https://eleventywebstarter.netlify.app/humans.txt</loc>
+            <lastmod>2022-04-24</lastmod>
+        </url>
+        
+        <url>
+            <loc>https://eleventywebstarter.netlify.app/impressum/</loc>
+            <lastmod>2022-04-24</lastmod>
+        </url>
+        
+        <url>
+            <loc>https://eleventywebstarter.netlify.app/</loc>
+            <lastmod>2022-04-24</lastmod>
+        </url>
+        
+        <url>
+            <loc>https://eleventywebstarter.netlify.app/widerrufsrecht/</loc>
+            <lastmod>2022-04-24</lastmod>
+        </url>
+</urlset>

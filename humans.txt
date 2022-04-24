@@ -1,0 +1,9 @@
+
+/* TEAM */
+	Name: Chris Collins
+	Site: https://eleventywebstarter.netlify.app
+Twitter: @chrissy_dev
+
+
+/* SITE */
+	Doctype: HTML5
