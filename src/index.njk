@@ -28,19 +28,16 @@ description: Das Festival des Jahres! Präsentiert von der AsTA der Hochschule A
   </section>
   <section class="py-24 bg-teal-200">
     <div class="max-w-screen-lg px-8 mx-auto text-center">
-      <span class="text-2xl">Noch ein wenig Geduld, der Vorverkauf startet bald</span>
-      {#
-            <pretix-widget event="https://pretix.eu/hs-albsig-asta/spring-break/"></pretix-widget>
-            <noscript>
-              <div class="pretix-widget">
-                <div class="pretix-widget-info-message">
-                  JavaScript is disabled in your browser. To access our ticket shop without JavaScript, please
-                  <a target="_blank" rel="noopener" href="https://pretix.eu/hs-albsig-asta/spring-break/">click here</a>.
-                </div>
-              </div>
-            </noscript>
+      {#<span class="text-2xl">Noch ein wenig Geduld, der Vorverkauf startet bald</span>#}
 
-            #}
+      <pretix-widget event="https://shop.lightup-albsig.de/"></pretix-widget>
+      <noscript>
+        <div class="pretix-widget">
+              <div class="pretix-widget-info-message">
+                  JavaScript ist in deinem Browser deaktiviert. Um unseren Ticket-Shop ohne JavaScript aufzurufen, klicke bitte <a target="_blank" rel="noopener" href="https://shop.lightup-albsig.de/">hier</a>.
+              </div>
+          </div>
+      </noscript>
     </div>
   </section>
   <footer class="items-center px-16 py-4 lg:flex bg-gradient-to-t from-teal-300 to-teal-200">
